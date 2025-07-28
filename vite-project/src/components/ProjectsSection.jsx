@@ -3,12 +3,11 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "RumbleGuard",
+    description: "A mobile application design to mitigate human-elephant conflict in high risk areas by leveraging seismic wave detection technology and real time alert mechanisms.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Figma", "Flutter", "Mongo DB", "Node.js"],
+    githubUrl: "https://github.com/RumbleGuard",
   },
   {
     id: 2,
@@ -75,13 +74,13 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
+                    {/* <a
                       href={project.demoUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
-                    </a>
+                    </a> */}
                     <a
                       href={project.githubUrl}
                       target="_blank"
